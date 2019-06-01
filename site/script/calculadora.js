@@ -30,3 +30,7 @@ export function Multiplicar(operadorEsquerda, operadorDireita){
 function LogarMensagem(mensagem){
     console.log(mensagem);
 }
+
+export function Foo(){
+    LogarMensagem(`Hello mundo`); 
+};
