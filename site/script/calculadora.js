@@ -3,6 +3,11 @@ export function Somar(operadorEsquerda, operadorDireita){
     return operadorEsquerda + operadorDireita;
 };
 
+export function Somar3Numeros(operadorEsquerda, operadorMeio,operadorDireita){
+    console.log(`Somando ${operadorEsquerda}, ${operadorMeio}, ${operadorDireita}: `); 
+    return operadorEsquerda + operadorMeio + operadorDireita;
+};
+
 export function Dividir(dividendo, divisor){
     if(divisor == 0){
         console.log(`Erro, divisão por zero`); 
