@@ -4,7 +4,7 @@ export function Somar(operadorEsquerda, operadorDireita){
 };
 
 export function Somar3Numeros(operadorEsquerda, operadorMeio,operadorDireita){
-    Logar(`Somando ${operadorEsquerda}, ${operadorMeio}, ${operadorDireita}: `); 
+    LogarMensagem(`Somando ${operadorEsquerda}, ${operadorMeio}, ${operadorDireita}: `); 
     return operadorEsquerda + operadorMeio + operadorDireita;
 };
 
